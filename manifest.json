@@ -1,0 +1,18 @@
+{
+    "name":"PWA Ejemplo",
+    "short_name":"PWA",
+    "description":"Esto es un ejemplo basico de una PWA",
+    "background_color":"",
+    "theme_color":"",
+    "orientation":"portrait",
+    "display":"standalone",
+    "start_url":"./?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang":"es-MX",
+    "icons":[{
+        "src":"./imagen.png",
+        "sizes":"",
+        "type":"image/png"
+    }
+    ]
+}
