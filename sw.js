@@ -61,13 +61,3 @@ self.addEventListener('fetch', e => {
       })
   )
 })
-
-Notification.requestPermission()
-  .then(() => navigator.serviceWorker.register('sw.js'))
-  .then(registration => registration.showNotification('Hola Mundo'))
-
-  navigator.serviceWorker.register('sw.js').then(registration => {
-    registration.pushManager.subscribe({userVisibleOnly: true}).then(subscription => {
-      registration.showNotification('Hola Mundo');
-    })
-  })
