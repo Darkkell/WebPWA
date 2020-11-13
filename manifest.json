@@ -12,28 +12,23 @@
   "icons": [
     {
       "src": "./img/code_256.ico",
-      "sizes": "256x256",
-      "type": "image/ico"
+      "sizes": "256x256"
     },
     {
       "src": "./img/code_128.ico",
-      "sizes": "128x128",
-      "type": "image/ico"
+      "sizes": "128x128"
     },
     {
       "src": "./img/code_64.ico",
-      "sizes": "64x64",
-      "type": "image/ico"
+      "sizes": "64x64"
     },
     {
       "src": "./img/code_32.ico",
-      "sizes": "32x32",
-      "type": "image/ico"
+      "sizes": "32x32"
     },
     {
       "src": "./img/code_16.ico",
-      "sizes": "16x16",
-      "type": "image/ico"
+      "sizes": "16x16"
     }
   ]
 }
