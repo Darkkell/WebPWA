@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'WPAEjemplo',
+const CACHE_NAME = 'v1_WPAEjemplo',
   urlsToCache = [
     './',
     'https://fonts.googleapis.com/css?family=Raleway:400,700',
@@ -9,7 +9,7 @@ const CACHE_NAME = 'WPAEjemplo',
     'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
     './style.css',
     './script.js',
-    './img/ProgramadorFitness.png',
+    './img/code.png',
     './img/favicon.png'
   ]
 
