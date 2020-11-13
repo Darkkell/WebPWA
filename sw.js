@@ -10,7 +10,7 @@ const CACHE_NAME = 'v1_WPAEjemplo',
     './style.css',
     './script.js',
     './img/code.png',
-    './img/favicon.png'
+    './img/code.png'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
