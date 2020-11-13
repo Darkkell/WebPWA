@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v2_WPAEjemplo',
+const CACHE_NAME = 'WPAEjemplo',
   urlsToCache = [
     './',
     'https://fonts.googleapis.com/css?family=Raleway:400,700',
@@ -63,10 +63,10 @@ self.addEventListener('fetch', e => {
 })
 
 Notification.requestPermission()
-  .then(() => navigator.serviceWorker.register('service-worker.js'))
+  .then(() => navigator.serviceWorker.register('sw.js'))
   .then(registration => registration.showNotification('Hola Mundo'))
 
-  navigator.serviceWorker.register('service-worker.js').then(registration => {
+  navigator.serviceWorker.register('sw.js').then(registration => {
     registration.pushManager.subscribe({userVisibleOnly: true}).then(subscription => {
       registration.showNotification('Hola Mundo');
     })
