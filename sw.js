@@ -61,3 +61,13 @@ self.addEventListener('fetch', e => {
       })
   )
 })
+
+Notification.requestPermission()
+  .then(() => navigator.serviceWorker.register('service-worker.js'))
+  .then(registration => registration.showNotification('Hola Mundo'))
+
+  navigator.serviceWorker.register('service-worker.js').then(registration => {
+    registration.pushManager.subscribe({userVisibleOnly: true}).then(subscription => {
+      registration.showNotification('Hola Mundo');
+    })
+  })
